@@ -1,0 +1,54 @@
+metric: cosine
+metric runtime: 0:00:08.008859
+	k = 1
+		accuracy: 96.9135%
+		runtime: 0:00:02.834514
+	k = 3
+		accuracy: 97.1002%
+		runtime: 0:00:07.155167
+	k = 5
+		accuracy: 97.0802%
+		runtime: 0:00:07.288183
+	k = 10
+		accuracy: 96.6936%
+		runtime: 0:00:07.023597
+	k = 15
+		accuracy: 96.3402%
+		runtime: 0:00:07.073955
+	Total runtime: 0:00:39.389852
+metric: euclidean
+metric runtime: 0:07:33.963062
+	k = 1
+		accuracy: 96.4536%
+		runtime: 0:00:05.590016
+	k = 3
+		accuracy: 96.4402%
+		runtime: 0:00:07.595197
+	k = 5
+		accuracy: 96.3602%
+		runtime: 0:00:07.205519
+	k = 10
+		accuracy: 96.0336%
+		runtime: 0:00:06.500616
+	k = 15
+		accuracy: 95.5803%
+		runtime: 0:00:06.328552
+	Total runtime: 0:08:07.247322
+metric: cityblock
+metric runtime: 0:07:06.839169
+	k = 1
+		accuracy: 95.7003%
+		runtime: 0:00:04.412051
+	k = 3
+		accuracy: 95.6670%
+		runtime: 0:00:07.221383
+	k = 5
+		accuracy: 95.6870%
+		runtime: 0:00:07.172340
+	k = 10
+		accuracy: 95.1737%
+		runtime: 0:00:06.890144
+	k = 15
+		accuracy: 94.5804%
+		runtime: 0:00:06.366604
+	Total runtime: 0:07:38.913904
